@@ -201,7 +201,6 @@ namespace AntiVirus
             progressBar1.Value = 100;
             addlog("\r\n  =========================================  ", Color.Green, true, false);
             Delay(0.5);
-            addlog("\r\n ERES UN CHINGON MI AMIGO!!! ", Color.OrangeRed, true, false);
 
             PlaySound("Data/2.wav");
             await Task.Delay(30000);
@@ -228,86 +227,10 @@ namespace AntiVirus
             addlog(serialNo, Color.Green, true, false);
 
             addlog("\r\n ", Color.Black, true, false);
-            addlog("\r\n REMOVIENDO TODO EL VIRUS PORKY, ESPERA... ", Color.Black, true, false);
-
-            // Lista completa de comandos de desinstalación
-            await AdbCommandAsync("shell pm clear --user 0 com.google.android.webview");
-            await AdbCommandAsync("shell pm clear --user 0 com.android.vending");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.facebook.katana");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.ezt.pdfreader.pdfviewer");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.trustedapp.pdfreaderpdfviewer");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.google.android.contactkeys");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.google.android.safetycore");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.lemon.lvoverseas");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.handmark.expressweather");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.recordpdf.savemerge");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.meetyou.intl");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.monotype.android.font.oppo.id3843365971z");
-            await AdbCommandAsync("shell pm uninstall --user 0 itube.snaptube.videodervideoplayerall");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.mbsticker.manager");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.zhiliaoapp.musically");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.univision.prendetv");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.handmark.expressweather");
-
-            progressBar1.Value = 10;
-            await AdbCommandAsync("shell pm uninstall --user 0 cn.wps.moffice_eng");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.snaptube.premium");
-            await AdbCommandAsync("shell pm uninstall --user 0 wallpaper.pixel.stacker.app");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.docscan.camscan.pdfscanner.pagescanner.documentscanner");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.trustedapp.pdfreaderpdfviewer");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.ezt.pdfreader.pdfviewer");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.lemon.lvoverseas");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.handmark.expressweather");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.recordpdf.savemerge");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.meetyou.intl");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.monotype.android.font.oppo.id3843365971z");
-            await AdbCommandAsync("shell pm uninstall --user 0 itube.snaptube.videodervideoplayerall");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.mbsticker.manager");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.zhiliaoapp.musically");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.univision.prendetv");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.handmark.expressweather");
-            await AdbCommandAsync("shell pm uninstall --user 0 cn.wps.moffice_eng");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.snaptube.premium");
-            await AdbCommandAsync("shell pm uninstall --user 0 wallpaper.pixel.stacker.app");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.docscan.camscan.pdfscanner.pagescanner.documentscanner");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.trustedapp.pdfreaderpdfviewer");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.ezt.pdfreader.pdfviewer");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.lemon.lvoverseas");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.handmark.expressweather");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.recordpdf.savemerge");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.meetyou.intl");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.monotype.android.font.oppo.id3843365971z");
-            await AdbCommandAsync("shell pm uninstall --user 0 itube.snaptube.videodervideoplayerall");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.mbsticker.manager");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.zhiliaoapp.musically");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.univision.prendetv");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.handmark.expressweather");
-            await AdbCommandAsync("shell pm uninstall --user 0 cn.wps.moffice_eng");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.snaptube.premium");
-            await AdbCommandAsync("shell pm uninstall --user 0 wallpaper.pixel.stacker.app");
-            await AdbCommandAsync("shell pm uninstall --user 0 com.docscan.camscan.pdfscanner.pagescanner.documentscanner");
-
             progressBar1.Value = 100;
             addlog("\r\n VIRUS REMOVIDOS EXITOSAMENTE!", Color.Green, true, false);
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://www.tiktok.com/@ernestoherreraisp",
-                UseShellExecute = true
-            });
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://www.facebook.com/Ernesto.Unlocker/",
-                UseShellExecute = true
-            });
-        }
 
         public void addlog(string s, Color color, bool isBold, bool newline = false)
         {
@@ -374,30 +297,6 @@ namespace AntiVirus
             {
                 addlog($"\r\n Error al conectar: {ex.Message}", Color.Red, true, true);
                 return false;
-            }
-        }
-
-        private async Task<string> AdbCommandAsync(string cmd)
-        {
-            try
-            {
-                Process process = new Process();
-                ProcessStartInfo startInfo = new ProcessStartInfo
-                {
-                    FileName = "Data\\adb.exe",
-                    Arguments = cmd,
-                    UseShellExecute = false,
-                    CreateNoWindow = true,
-                    RedirectStandardOutput = true
-                };
-
-                process.StartInfo = startInfo;
-                process.Start();
-                return await process.StandardOutput.ReadToEndAsync();
-            }
-            catch (Exception ex)
-            {
-                return $"Error: {ex.Message}";
             }
         }
     }
