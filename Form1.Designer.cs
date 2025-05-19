@@ -118,26 +118,8 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(293, 531);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(265, 15);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Invitame una caguama! Binance ID 441915371";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(10, 531);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 15);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "\"La vida es un riesgo carnal\"";
+            
+            
             // 
             // pictureBox3
             // 
